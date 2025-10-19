@@ -10,16 +10,16 @@ int main()
 	char islem;
 	
 	printf("--------------------------------\n");
-	printf("Temel Dört Fonksiyonlu Hesap Makinesi\n");
+	printf("Temel DÃ¶rt Fonksiyonlu Hesap Makinesi\n");
 	printf("--------------------------------\n");
 	
-	printf("Lütfen Ýþlem Giriniz(+,-,*,/): ");
+	printf("LÃ¼tfen Ä°ÅŸlem Giriniz(+,-,*,/): ");
 	scanf(" %c",&islem);
 	
 	if(islem != '+' && islem != '-' && islem != '*' && islem != '/')
 	{
 		printf("--------------------------------\n");
-		printf("Hatalý Ýþlem Giriþi!");
+		printf("HatalÄ± Ä°ÅŸlem GiriÅŸi!");
 		return 1;
 	}
 	
@@ -27,10 +27,10 @@ int main()
 	int tam_sayi_sonuc;
 	
 	printf("--------------------------------\n");
-	printf("Lütfen 1. sayýyý giriniz: ");
+	printf("LÃ¼tfen 1. sayÄ±yÄ± giriniz: ");
 	scanf("%lf",&sayi1);
 	printf("--------------------------------\n");
-	printf("Lütfen 2. sayýyý giriniz: ");
+	printf("LÃ¼tfen 2. sayÄ±yÄ± giriniz: ");
 	scanf("%lf",&sayi2);
 	
 	
@@ -44,11 +44,11 @@ int main()
 			
 			if (sonuc!=tam_sayi_sonuc) 
 			{
-				printf("Sonuç: %.2f",sonuc);
+				printf("SonuÃ§: %.2f",sonuc);
 			}
 			else
 			{
-				printf("Sonuç: %d",tam_sayi_sonuc);
+				printf("SonuÃ§: %d",tam_sayi_sonuc);
 			}
 			break;
 			
@@ -60,11 +60,11 @@ int main()
 			
 			if (sonuc!=tam_sayi_sonuc) 
 			{
-				printf("Sonuç: %.2f",sonuc);
+				printf("SonuÃ§: %.2f",sonuc);
 			}
 			else
 			{
-				printf("Sonuç: %d",tam_sayi_sonuc);
+				printf("SonuÃ§: %d",tam_sayi_sonuc);
 			}
 			break;
 		case '*':
@@ -75,11 +75,11 @@ int main()
 			
 			if (sonuc!=tam_sayi_sonuc) 
 			{
-				printf("Sonuç: %.2f",sonuc);
+				printf("SonuÃ§: %.2f",sonuc);
 			}
 			else
 			{
-				printf("Sonuç: %d",tam_sayi_sonuc);
+				printf("SonuÃ§: %d",tam_sayi_sonuc);
 			}
 			break;
 
@@ -90,11 +90,11 @@ int main()
 			
 			if (sonuc!=tam_sayi_sonuc) 
 			{
-				printf("Sonuç: %.2f",sonuc);
+				printf("SonuÃ§: %.2f",sonuc);
 			}
 			else
 			{
-				printf("Sonuç: %d",tam_sayi_sonuc);
+				printf("SonuÃ§: %d",tam_sayi_sonuc);
 			}
 			break;
 	}
